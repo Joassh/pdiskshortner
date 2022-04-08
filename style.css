@@ -1,0 +1,10 @@
+body{
+  /* background-color: #65799b; */
+  /* background-color: #153b44; */
+  background-color: #29435C; /*Blue*/
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+.title{
+  margin: 1.2rem;
+}
