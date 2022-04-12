@@ -6,137 +6,59 @@
   <title>MVB-Official</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style media="screen">
-    .socialbar {
-
-      width: 250px;
-      height: 80px;
-      background-color: blue;
-      border-radius: 18px;
-      margin-top: 5px;
-      position: absolute;
-      text-align: right;
-      align-items: flex-end;
-      justify-content: flex-end;
-      left: 50%;
-      transform: translate(-25%);
-
-    }
-
-    .socialbar1 {
-      position: absolute;
-      background-color: blue;
-
-      /* color: #d5def5; */
-      color: white;
-      top: 5%;
-      left: 80%;
-      width: 200px;
-      height: 80px;
-      font-size: 1.2rem;
-      transform: translate(-90%);
-      border: 3px solid white;
-      padding: 8px;
-      border-radius: 18px
-    }
-  </style>
-
-  <!-- Popunder -->
-  <script type="text/javascript">
-    function jsPopunder(e, t) {
-      function d() {
-        try {
-          c = Math.floor(document.cookie.split(h + "Cap=")[1].split(";")[0])
-        } catch (e) {}
-        return l <= c || document.cookie.indexOf(h + "=") !== -1
-      }
-
-      function v(e, t, i, s, o, u) {
-        if (d()) return;
-        var a = "toolbar=no,scrollbars=yes,location=yes,statusbar=yes,menubar=no,resizable=1,width=" + i.toString() + ",height=" + s.toString() + ",screenX=" + o + ",screenY=" + u,
-          l = function() {
-            if (d()) return;
-            r = n.window.open(e, t, a);
-            if (r) {
-              var i = new Date,
-                s = new Date(i.setTime(i.getTime() + f));
-              document.cookie = h + "=1;expires=" + s.toGMTString() + ";path=/";
-              var o = new Date;
-              o.setHours(1, 0, 0, 0), document.cookie = h + "Cap=" + (c + 1) + ";expires=" + o.toGMTString() + ";path=/", m()
-            }
-          };
-        document.addEventListener ? document.addEventListener("click", l, !1) : document.attachEvent("onclick", l)
-      }
-
-      function m() {
-        try {
-          r.blur(), r.opener.window.focus(), window.self.window.focus(), window.focus(), p.firefox && g(), p.webkit && y(), p.msie && setTimeout(function() {
-            r.blur(), r.opener.window.focus(), window.self.window.focus(), window.focus()
-          }, 1e3)
-        } catch (e) {}
-      }
-
-      function g() {
-        var e = window.open("about:blank");
-        e.focus(), e.close()
-      }
-
-      function y() {
-        var e = "",
-          t = document.createElement("a");
-        t.href = "data:text/html,<scr" + e + "ipt>window.close();</scr" + e + "ipt>", document.getElementsByTagName("body")[0].appendChild(t);
-        var n = document.createEvent("MouseEvents");
-        n.initMouseEvent("click", !1, !0, window, 0, 0, 0, 0, 0, !0, !1, !1, !0, 0, null), t.dispatchEvent(n), t.parentNode.removeChild(t)
-      }
-      var n = top != self && typeof top.document.location.toString() == "string" ? top : self,
-        r = null;
-      t = t || {};
-      var i = t.name || Math.floor(Math.random() * 1e3 + 1),
-        s = t.width || window.outerWidth || window.innerWidth,
-        o = t.height || window.outerHeight - 100 || window.innerHeight,
-        u = typeof t.left != "undefined" ? t.left.toString() : window.screenX,
-        a = typeof t.top != "undefined" ? t.top.toString() : window.screenY,
-        f = t.wait || 3600;
-      f *= 1e3;
-      var l = t.cap || 2,
-        c = 0,
-        h = t.cookie || "__.popunder",
-        p = function() {
-          var e = navigator.userAgent.toLowerCase(),
-            t = {
-              webkit: /webkit/.test(e),
-              mozilla: /mozilla/.test(e) && !/(compatible|webkit)/.test(e),
-              chrome: /chrome/.test(e),
-              msie: /msie/.test(e) && !/opera/.test(e),
-              firefox: /firefox/.test(e),
-              safari: /safari/.test(e) && !/chrome/.test(e),
-              opera: /opera/.test(e)
-            };
-          return t.version = t.safari ? (e.match(/.+(?:ri)[/: ]([d.]+)/) || [])[1] : (e.match(/.+(?:ox|me|ra|ie)[/: ]([d.]+)/) || [])[1], t
-        }();
-      if (d()) return;
-      v(e, i, s, o, u, a)
-    };
-    var url = "https://www.google.com";
-    jsPopunder(url);
-  </script>
 </head>
 
 
 <body>
-  <div class="socialbar1">
-    Hello
-  </div>
-  <div class="
-    ">
-    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque rem temporibus beatae sed, illum amet alias ratione ad dolore aperiam reprehenderit aspernatur magni, dolor ex non perferendis culpa placeat excepturi exercitationem nobis, in ea
-      voluptas eos unde! Sunt facilis nisi autem est dolorem harum. Quisquam fuga maiores dolores vel labore dolorem reiciendis, repellat, quidem magni harum autem mollitia molestias. Ab deleniti porro molestiae repudiandae officiis necessitatibus
-      non illo sed architecto natus, est tempore culpa, praesentium expedita amet, nobis eius corrupti repellat cum accusamus nemo iure, voluptates doloribus. Reiciendis illum, ducimus? Necessitatibus quaerat nisi eum perferendis consequuntur
-      excepturi, aliquid provident, enim, odit iure fuga aliquam unde optio, asperiores a! Eligendi ducimus delectus ipsum harum, odit velit eaque perspiciatis quaerat sint provident. Laboriosam at et deleniti harum repellat quam incidunt eius
-      inventore voluptate obcaecati sunt in id, a debitis, vel repudiandae. Recusandae maiores, quis suscipit mollitia laboriosam, voluptatem ut animi, velit debitis facilis adipisci deleniti numquam reiciendis pariatur modi quibusdam sed quod! Qui
-      temporibus fuga repudiandae facere, in, architecto at, quia reiciendis molestiae nemo veniam sit, quidem ut suscipit numquam. Libero voluptatem, iste dolorum laborum nulla recusandae, labore adipisci perspiciatis? Ullam laboriosam facere eum
-      delectus velit eveniet dolores iste quos placeat ducimus?</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index2.html">Crypto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bitcoin</a>
+        </li>
 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="container">
+    <h1>Crypto Trading Volumes in India Collapse 10 Days After New Tax: Crebaco</h1>
+    <hr>
+    <h4>Crypto trading volumes of India’s major exchanges have nosedived since April 1, the day a new tax on crypto profits came into effect, according to data collected by Crebaco, a cryptocurrency research firm.
+      The volumes of four Indian exchanges were collated by analyzing data on CoinMarketCap and Nomics, a data firm. The data reveals a drop of 72% on WazirX, 59% on ZebPay, 52% on CoinDCX and 41% on BitBns. The trading volumes were measured in U.S.
+      dollars.
+      India now has a 30% tax on profits from crypto transactions and doesn't allow offsetting gains with losses from other crypto transactions. The most controversial provision – the 1% tax deducted at source (TDS) liability – won’t take effect
+      until July 1.
+<hr>
+      It is unclear whether the drop in trading volumes is because of the new tax law as the drop in volumes on Indian exchanges is largely in line with a global trend.
+      “April 1, 2, and 3 were holidays. Since then, volumes are continuing to fall. I don’t think this will return," Crebaco CEO Sidharth Sogani said.
+      "This has created a new benchmark. It can go further down or sideways, but it is unlikely to go back up. It is clear that the new tax has impacted the market negatively. The government must look into this, and because there is no way to stop
+      this (crypto), the government should embrace the technology,” he said.
+      According to senior crypto lawyer Suril Desai it is unclear whether the drop in volumes means the trading has moved elsewhere. “The only trading volumes we get comes from exchanges. The off-chain trades could be happening for which there is no
+      record,” Desai said.
+      ZebPay declined to comment, while the other exchanges didn't immediately return requests for comment.
+      Sathvik Vishwanath, co-founder and CEO of Unocoin, another Indian exchange, said the new tax law is affecting the market.
+      “People earning less than 1,000,000 (Indian rupees) per year is affected by 30% fixed income tax on crypto. 1% TDS is affecting the market makers and liquidity providers. Both are needed for better crypto ecosystem in India,” Vishwanath
+      tweeted. One million Indian rupees is the equivalent of about $13,000.
+<hr>
+      Anton Gulin, regional director of the AAX crypto exchange, said the drop in volume should be short term.
+      "AAX exchange has seen an outflow of active Indian users within the past weeks, as well. However, I believe that the tax rate may be revised to attract more taxpayers, as this is the ultimate goal for any government," Gulin said.
+      Johnny Lyu, CEO of KuCoin, another trading platform, said that some beginners are less willing to invest in crypto in the short term.
+      "KuCoin hasn’t seen any outflow though, according to internal data. This can be explained by the higher degree of crypto nativeness among our users," he said. "The new law will affect short-term market mood and behavior, but it will be
+      difficult to block the adoption of crypto in the long run."
+      UPDATE (April 11, 12:15 UTC): Adds analyst comment in 11th and 12th paragraph.</h4>
   </div>
 
   <!-- BootStrap Script-->
